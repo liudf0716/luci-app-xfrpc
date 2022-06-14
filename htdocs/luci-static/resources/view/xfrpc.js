@@ -113,7 +113,8 @@ return view.extend({
 	render: function() {
 		var m, s, o;
 
-		m = new form.Map('xfrpc', _('frp c language Client'));
+		m = new form.Map('xfrpc', _('xfrpc'));
+		m.description = _("xfrpc is a c language frp client for frps. It has more advantage in OpenWrt box than frpc");
 
 		s = m.section(form.NamedSection, '_status');
 		s.anonymous = true;

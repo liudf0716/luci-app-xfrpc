@@ -1,0 +1,12 @@
+{
+	"admin/services/xfrpc": {
+		"title": "x-frp client",
+		"action": {
+			"type": "view",
+			"path": "xfrpc"
+		},
+		"depends": {
+			"acl": [ "luci-app-xfrpc" ]
+		}
+	}
+}

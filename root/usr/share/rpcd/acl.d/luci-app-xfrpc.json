@@ -1,0 +1,18 @@
+{
+	"luci-app-xfrpc": {
+		"description": "Grant access to LuCI app xfrpc",
+		"read": {
+			"file": {
+				"/etc/passwd": ["read"],
+				"/etc/group": ["read"]
+			},
+			"ubus": {
+				"service": [ "list" ]
+			},
+			"uci": ["xfrpc"]
+		},
+		"write": {
+			"uci": ["xfrpc"]
+		}
+	}
+}

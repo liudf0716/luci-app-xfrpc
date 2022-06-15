@@ -8,7 +8,7 @@ git clone https://github.com/openwrt/luci.git
 git clone https://github.com/liudf0716/luci-app-xfrpc.git
 cp -r luci-app-xfrpc luci/applications
 
-https://github.com/openwrt/openwrt.git
+git clone https://github.com/openwrt/openwrt.git
 ```
 
 enter openwrt and edit feed.conf.default

@@ -1,28 +1,16 @@
 # luci-app-xfrpc
 luci for xfrpc
 
-## how to use
+## how to use in OpenWRT
 
 ```
 git clone https://github.com/openwrt/luci.git
 git clone https://github.com/liudf0716/luci-app-xfrpc.git
+# replace luci-app-xfrpc
+rm -rf luci/applications/luci-app-xfrpc
 cp -r luci-app-xfrpc luci/applications
 
 git clone https://github.com/openwrt/openwrt.git
-```
-
-enter openwrt and edit feed.conf.default
-
-```
-src-git-full packages https://git.openwrt.org/feed/packages.git
-#src-git-full luci https://git.openwrt.org/project/luci.git
-src-link luci /your_luci_absolute_path
-src-git-full routing https://git.openwrt.org/feed/routing.git
-src-git-full telephony https://git.openwrt.org/feed/telephony.git
-#src-git-full video https://github.com/openwrt/video.git
-#src-git-full targets https://github.com/openwrt/targets.git
-#src-git-full oldpackages http://git.openwrt.org/packages.git
-#src-link custom /usr/src/openwrt/custom-feed
 ```
 
 ```
@@ -31,6 +19,12 @@ src-git-full telephony https://git.openwrt.org/feed/telephony.git
 ```
 
 `make menuconfig` and `luci ---> Applictions ---> luci-app-xfrpc` 
+
+```
+make package/luci-app-xfrpc/compile
+```
+
+or
 
 ```
 make V=s

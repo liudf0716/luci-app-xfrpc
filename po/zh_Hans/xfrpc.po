@@ -1,0 +1,57 @@
+#: xfrpc package
+msgid "xfrpc"
+msgstr "内网穿透"
+
+msgid "XFRPC"
+msgstr "内网穿透"
+
+msgid "xfrpc is a C language client for frps, used in the frp (fast reverse proxy) system."
+msgstr "xfrpc是frps的C语言客户端，用于frp（快速反向代理）系统。"
+
+msgid "Server port"
+msgstr "服务器端口"
+
+msgid "Token"
+msgstr "认证令牌"
+
+msgid "Init Settings"
+msgstr "初始化设置"
+
+msgid "Enable xfrpc service."
+msgstr "启用xfrpc内网穿透服务"
+
+msgid "Proxy Settings."
+msgstr "代理服务设置"
+
+msgid "HTTP Settings"
+msgstr "WEB服务设置"
+
+msgid "Proxy type"
+msgstr "代理类型"
+
+msgid "Local IP"
+msgstr "代理服务IP"
+
+msgid "Local port"
+msgstr "代理服务端口"
+
+msgid "Remote port"
+msgstr "远程服务端口"
+
+msgid "Plugin Settings"
+msgstr "插件设置"
+
+msgid "Plugin Name"
+msgstr "插件名称"
+
+msgid "Plugin Args"
+msgstr "插件参数"
+
+msgid "Plugin Action"
+msgstr "插件动作"
+
+msgid "Execute"
+msgstr "执行"
+
+msgid "Remote port of plugin"
+msgstr "插件远程服务端口"

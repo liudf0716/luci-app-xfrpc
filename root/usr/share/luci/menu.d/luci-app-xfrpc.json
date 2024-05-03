@@ -1,6 +1,6 @@
 {
 	"admin/services/xfrpc": {
-		"title": "x-frp client",
+		"title": "xfrpc",
 		"action": {
 			"type": "view",
 			"path": "xfrpc"

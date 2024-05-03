@@ -2,8 +2,8 @@
 
 include $(TOPDIR)/rules.mk
 
-LUCI_TITLE:=LuCI Support for xfrpc -- c language frpc
-LUCI_DEPENDS:=+xfrpc
+LUCI_TITLE:=LuCI Support for xfrpc
+LUCI_DEPENDS:=+xfrpc +luci-lib-httpclient
 
 PKG_LICENSE:=Apache-2.0
 PKG_MAINTAINER:=Dengfeng Liu <liu_df@qq.com>

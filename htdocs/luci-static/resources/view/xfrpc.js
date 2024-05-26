@@ -157,7 +157,7 @@ return view.extend({
 			sent to the server. The server must have a matching token for authorization to succeed.'), 
 			_('By default, this value is "".')));
 		o.rmempty = false;
-		o.datatype = 'string';
+		o.password = true;
 		o.optional = false;
 
 		o = s.taboption('common', form.ListValue, 'loglevel', _('Log level'),
